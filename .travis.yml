@@ -1,0 +1,23 @@
+language: java
+before_install:
+  sudo pip install codecov
+after_success:
+    codecov
+jdk:
+  - oraclejdk7
+before_script:
+  - mysql -e 'create database learn_test;'
+install: ""
+notifications:
+    email:
+        recipients:
+            - chico.sokol@gmail.com
+            - artur.adam@caelum.com.br
+            - felipe.gtorres@gmail.com
+            - leonardo.wolter@caelum.com.br
+            - fernanda.bernardo@caelum.com.br
+            - marco.salles@caelum.com.br
+            - paulo.alves@caelum.com.br
+            - felipeweb.programador@gmail.com
+        on_success: change
+        on_failure: always

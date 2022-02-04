@@ -1,14 +1,14 @@
 Learn QA
 ========
 
-**How to set up an instance of learn**
+How to set up an instance of learn
 
 First of all, you need to setup an MySQL database. The default database name is 
 `learn_development`, the username is `root` and the password must be blank.
 
-**To use learn
+To use learn
 
-Using a compiled war file:**
+Using a compiled war file:
 
 1. Download the war of the latest version at http://www.learn.org
 2. Unpack it to a folder named `yourproject/learn`

@@ -1,21 +1,21 @@
 Learn QA
 ========
 
-##How to set up an instance of learn
+**How to set up an instance of learn**
 
 First of all, you need to setup an MySQL database. The default database name is 
 `learn_development`, the username is `root` and the password must be blank.
 
-##To use learn
+**To use learn
 
-###Using a compiled war file:
+Using a compiled war file:**
 
 1. Download the war of the latest version at http://www.learn.org
 2. Unpack it to a folder named `yourproject/learn`
 3. Run it by executing the bash script `learn/run.sh`
 4. If everything worked, you are free to customize `learn` folder as you want to! 
 
-###Using git + maven:
+Using git + maven:
 
 1. Clone the repository from [github](https://github.com/caelum/learn)
 2. Install node and npm
@@ -26,7 +26,7 @@ First of all, you need to setup an MySQL database. The default database name is
 8. Run it by executing the bash script `learn/run.sh`
 9. If everything worked, you are free to customize `learn` folder as you want to! 
 
-##To contribute with learn:
+To contribute with learn:
 
 1. Fork the repository from [github](https://github.com/caelum/learn)
 2. Clone the fork
@@ -37,7 +37,7 @@ First of all, you need to setup an MySQL database. The default database name is
 7. Run `Main.java` to start learn (run from project right click, otherwise, main may not be found)
 8. Develop and do your pull request
 
-##FAQ
+FAQ
 
 * [How to setup an instance](http://meta.learn.org/221-how-to-set-up-an-instance-of-learn)
 
@@ -56,7 +56,7 @@ First of all, you need to setup an MySQL database. The default database name is
 * [What are the basic CSS classes to customize learn?](http://meta.learn.org/281-what-are-the-basic-css-classes-to-customize-learn)
 
 
-##Questions?
+Questions?
 
 Send your questions to [learn meta](http://meta.learn.org).
 
